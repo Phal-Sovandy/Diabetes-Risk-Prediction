@@ -3648,15 +3648,6 @@
         ]
     },
     "Logistic Regression": {
-        "best_params": {
-            "colsample_bytree": 1.0,
-            "gamma": 0,
-            "learning_rate": 0.05,
-            "max_depth": 5,
-            "min_child_weight": 20,
-            "n_estimators": 200,
-            "subsample": 0.7
-        },
         "train_acc": 0.9297916666666667,
         "test_acc": 0.9416666666666667,
         "auc-ovr": 0.9893708526271038,
