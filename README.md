@@ -6,7 +6,8 @@ A comprehensive data science pipeline to assess and predict diabetes risk levels
 
 ## Project Structure
 
-​```
+
+```
 diabetes-risk-analysis/
 ├── dataset/
 │   └── diabetes_risk_dataset.csv       # Raw clinical data
@@ -29,7 +30,7 @@ diabetes-risk-analysis/
 ├── diabetes_risk_data_analysis.ipynb   # Main analysis & modeling notebook
 ├── requirements.txt                    # Project dependencies
 └── README.md                           # Project documentation
-​```
+```
 
 ---
 
@@ -71,19 +72,19 @@ diabetes-risk-analysis/
 
 ### Regression — Risk Scoring
 
-| Model         | MAE | RMSE | R² |
-|---------------|-----|------|----|
-| ElasticNet    | -   | -    | -  |
-| Random Forest | -   | -    | -  |
-| XGBoost       | -   | -    | -  |
+| Model                        | RMSE | MAE | R² Score |
+|-----------------------------|------|-----|----------|
+| ElasticNet Regression       | 12.10  | 9.66 | 0.89      |
+| Random Forest Regression    | 6.66  | 4.88 | 0.96      |
+| Gradient Boosting Regression| **5.83**  | **4.18** | **0.97**      |
 
 ### Classification — Risk Tiers
 
-| Model               | Accuracy | F1-Score | Recall (High-Risk) |
-|---------------------|----------|----------|--------------------|
-| Logistic Regression | -        | -        | -                  |
-| Random Forest       | -        | -        | -                  |
-| XGBoost             | -        | -        | -                  |
+| Model                        | Accuracy | Precision | Recall | F1-Score |
+|-----------------------------|----------|-----------|--------|----------|
+| Logistic Regression         | **0.94**      | **0.92**       | **0.93**    | **0.92**      |
+| Random Forest Classifier    | 0.91      | 0.88       | 0.88    | 0.88      |
+| Gradient Boosting Classifier| 0.93      | 0.90       | 0.91    | 0.90      |
 
 ---
 
