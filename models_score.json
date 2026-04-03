@@ -3648,10 +3648,10 @@
         ]
     },
     "Logistic Regression": {
-        "train_acc": 0.9297916666666667,
+        "train_acc": 0.9295833333333333,
         "test_acc": 0.9416666666666667,
-        "auc-ovr": 0.9893708526271038,
-        "auc-ovo": 0.9878063859313859,
+        "auc-ovr": 0.9893725869344633,
+        "auc-ovo": 0.987809703643037,
         "classification-report": "              precision    recall  f1-score   support\n\n   High Risk       0.97      0.96      0.97       450\n    Low Risk       0.96      0.96      0.96       528\n Prediabetes       0.84      0.85      0.84       222\n\n    accuracy                           0.94      1200\n   macro avg       0.92      0.93      0.92      1200\nweighted avg       0.94      0.94      0.94      1200\n",
         "confusion-matrix": [
             [
